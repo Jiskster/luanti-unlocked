@@ -133,6 +133,8 @@ compile_commands.json
 *.vcxproj*
 *.sln
 .vs/
+# bundledlls
+bundledlls
 
 # Old irrlichtmt. Still ignored to make bisecting easier.
 lib/irrlichtmt
