@@ -424,7 +424,7 @@ public:
 
 	inline bool checkCSMRestrictionFlag(CSMRestrictionFlags flag) const
 	{
-		return m_csm_restriction_flags & flag;
+		return false; // m_csm_restriction_flags & flag;
 	}
 
 	bool joinModChannel(const std::string &channel) override;
